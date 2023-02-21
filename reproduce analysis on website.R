@@ -6,8 +6,7 @@ library(haven)
 
 # data import av runde 1 NSD-filer
 
-df <- read_sav("C:\\Users\\ØivindSkjervheim\\ideas2evidence AS\\i2e - Data\\Justisdepartementet\\Nasjonal trygghetsundersøkelse\\Data og datadokumentasjon\\Datafiler\\NSD\\Norwegian Crime Survey NSD v1.sav")
-#df <- haven::read_sav("C:\\Users\\ØivindSkjervheim\\ideas2evidence AS\\i2e - Data\\Justisdepartementet\\Nasjonal trygghetsundersøkelse\\Data og datadokumentasjon\\Datafiler\\NSD\\Nasjonal trygghetsundersokelse NSD v1.sav")
+df <- read_sav("Norwegian Crime Survey NSD v1.sav")
 
 # Please confer the following site for how to access 
 # data from the National Crime Survey:
