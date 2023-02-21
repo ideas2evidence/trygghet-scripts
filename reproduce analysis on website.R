@@ -4,7 +4,7 @@ library(haven)
 
 # This script reproduces the statistics published at trygghetsundersokelsen.no
 
-# data import av runde 1 NSD-filer
+# data import of round 1 published NSD data
 
 df <- read_sav("Norwegian Crime Survey NSD v1.sav")
 
